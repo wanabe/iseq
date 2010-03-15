@@ -1,5 +1,5 @@
 Description
-This is the library, by the ISeq freaks, for the ISeq freaks, of the ISeq freaks.
+This is a library, by the ISeq freaks, for the ISeq freaks, of the ISeq freaks.
 (will be in the future)
 
 RubyVM::InstructionSequence is too long name, so I aliased it as Object::ISeq.
