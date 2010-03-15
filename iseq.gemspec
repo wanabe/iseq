@@ -1,6 +1,10 @@
 Gem::Specification.new do |s|
   s.name = "iseq"
   s.version = "0.0.1"
+  s.author = "wanabe"
+  s.email = "s.wanabe@gmail.com"
+  s.homepage = "http://github.com/wanabe/iseq"
+  s.rubyforge_project = "iseq" # TODO: register rubyforge
   s.required_ruby_version = ">= 1.9"
   s.platform = $built || "ruby"
   s.summary = "a library for ISeq freaks"
@@ -11,6 +15,7 @@ This is a library, by the ISeq freaks, for the ISeq freaks, of the ISeq freaks.
   EOF
   s.files = ["README", "README.ja", "LICENSE", "LICENSE.ja", 
              "ext/iseq.c", "ext/extconf.rb"]
+
   if $built
     s.files += ["#{$libdir}/iseq.so"]
     #s.require_paths = ["ext"]
