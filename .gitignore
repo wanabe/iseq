@@ -1,0 +1,5 @@
+ext/Makefile
+ext/*.def
+ext/*.o
+ext/*.so
+lib/*
