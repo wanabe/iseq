@@ -1,3 +1,5 @@
+Kernel.load "mkfiles.rb"
+
 Gem::Specification.new do |s|
   s.name = "iseq"
   s.version = "0.0.1"
@@ -13,8 +15,7 @@ Gem::Specification.new do |s|
 This is a library, by the ISeq freaks, for the ISeq freaks, of the ISeq freaks.
 (will be in the future)
   EOF
-  s.files = ["README", "README.ja", "LICENSE", "LICENSE.ja", 
-             "ext/iseq.c", "ext/extconf.rb"]
+  s.files = IO.readlines("files").each {|name| name.chomp!}
 
   if $built
     s.files += ["#{$libdir}/iseq.so"]
