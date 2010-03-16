@@ -1,7 +1,7 @@
-files = `git diff master@{-1}..HEAD --name-only`.split("\n")
+files = `git diff first --name-only`.split("\n")
 files.delete_if do |name|
   case name 
-  when $0, /\.gem(spec)?$/, ".gitignore"
+  when __FILE__, /\.gem(spec)?$/, ".gitignore"
     true
   else
     false
