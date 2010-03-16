@@ -5,9 +5,9 @@ This is a library, by the ISeq freaks, for the ISeq freaks, of the ISeq freaks.
 RubyVM::InstructionSequence is too long name, so I aliased it as Object::ISeq.
 please use ISeq easily.
 
-I define RubyVM::InstructionSequence#load, it is hidden feature on Ruby level.
+I define RubyVM::InstructionSequence.load, it is hidden feature on Ruby level.
 
-Other feature is (TODO:çlÇ¶íÜ). If you have a question, please contact me.
+Other feature is under seeking. If you have a question, please contact me.
 e-mail (s.wanabe AT gmail.com) or twitter (wannabe53) is welcome.
 
 LICENCE

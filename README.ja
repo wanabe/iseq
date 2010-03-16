@@ -5,7 +5,7 @@ ISeq フリークスによる ISeq フリークスのための ISeq フリークスのライブラリです。
 RubyVM::InstructionSequence といういかにも長い名前が使わせない気満々なので
 Object::ISeq に代入しました。気軽に ISeq と参照してください。
 
-ふだん Ruby からは使えない RubyVM::InstructionSequence#load を定義しました。
+ふだん Ruby からは使えない RubyVM::InstructionSequence.load を定義しました。
 
 そのほかの機能は考え中です。なにかありましたらワナベまで。
 メール（s.wanabe あっと gmail.com）または twitter（wannabe53）でどうぞ。
