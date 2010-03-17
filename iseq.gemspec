@@ -2,7 +2,7 @@ Kernel.load "mkfiles.rb"
 
 Gem::Specification.new do |s|
   s.name = "iseq"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.author = "wanabe"
   s.email = "s.wanabe@gmail.com"
   s.homepage = "http://github.com/wanabe/iseq"
@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 1.9"
   s.platform = $built || "ruby"
   s.summary = "a library for ISeq freaks"
+  s.has_rdoc = false
 
   s.description = <<-EOF
 This is a library, by the ISeq freaks, for the ISeq freaks, of the ISeq freaks.
